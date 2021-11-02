@@ -34,17 +34,17 @@ Bep shell will exit with status 0 unless status is specified with syntax ```exit
 
 | Function Name | Description |
 |---------------- | -----------|
-|[parse_line](https://github.com/bezake/simple_shell/blob/main/parsing_functions.c)    | Parses the command line looking for commands and argumements.|
-|[create_Child](https://github.com/bezake/simple_shell/blob/main/parsing_functions.c) | Forks the current process in order to execute another program.|
-|[tokenize](https://github.com/bezake/simple_shell/blob/main/parsing_functions.c) | Separates a string in to an array of tokens based on a delimiter passed to the function. |
-|[count_token](https://github.com/bezake/simple_shell/blob/main/parsing_functions.c) | Counts how many tokens are on a given string that is separated by a delimeter. |
-|[find_path](https://github.com/bezake/simple_shell/blob/main/find_path.c)|Looks through the environmental variables untill it finds the PATH variable, It then returns the index of its possition.|
-|[tokenize_path](https://github.com/bezake/simple_shell/blob/main/find_path.c) | Separates the PATH variable into separate strings each containing a directory in the PATH. |
-|[search_directories](https://github.com/bezake/simple_shell/blob/main/find_path.c) | Looks through directories stored in path_tokens for a specifc file name which represents a command. |
-|[build_path](https://github.com/bezake/simple_shell/blob/main/find_path.c) | Combines two strings, one representing the path directory and the other representing the command file. |
-|[_strcmp](https://github.com/bezake/simple_shell/blob/main/hbtlib.c) | Compares two strings and if they match the function returns 0.|
-|[_strdup](https://github.com/bezake/simple_shell/blob/main/hbtlib.c) | Duplicates a string.|
-|[print_str](https://github.com/bezake/simple_shell/blob/main/hbtlib.c)| Prints a string character by character.|
-|[cd_b](https://github.com/bezake/simple_shell/blob/main/builtins.c) | Changes the current working directory to the parameter passed to the command cd. |
-|[env_b](https://github.com/bezake/simple_shell/blob/main/builtins.c) | Prints all environmental variables available in the current shell.
-|[check_built_ins](https://github.com/bezake/simple_shell/blob/main/builtins.c) | Checks if a command exitst as a builtin funcition and then it returns a pointer to the right function.|
+|[parse_line](https://github.com/devephy/simple_shell/blob/main/parsing_functions.c)    | Parses the command line looking for commands and argumements.|
+|[create_Child](https://github.com/devephy/simple_shell/blob/main/parsing_functions.c) | Forks the current process in order to execute another program.|
+|[tokenize](https://github.com/devephy/simple_shell/blob/main/parsing_functions.c) | Separates a string in to an array of tokens based on a delimiter passed to the function. |
+|[count_token](https://github.com/devephy/simple_shell/blob/main/parsing_functions.c) | Counts how many tokens are on a given string that is separated by a delimeter. |
+|[find_path](https://github.com/devephy/simple_shell/blob/main/find_path.c)|Looks through the environmental variables untill it finds the PATH variable, It then returns the index of its possition.|
+|[tokenize_path](https://github.com/devephy/simple_shell/blob/main/find_path.c) | Separates the PATH variable into separate strings each containing a directory in the PATH. |
+|[search_directories](https://github.com/devephy/simple_shell/blob/main/find_path.c) | Looks through directories stored in path_tokens for a specifc file name which represents a command. |
+|[build_path](https://github.com/devephy/simple_shell/blob/main/find_path.c) | Combines two strings, one representing the path directory and the other representing the command file. |
+|[_strcmp](https://github.com/devephy/simple_shell/blob/main/hbtlib.c) | Compares two strings and if they match the function returns 0.|
+|[_strdup](https://github.com/devephy/simple_shell/blob/main/hbtlib.c) | Duplicates a string.|
+|[print_str](https://github.com/devephy/simple_shell/blob/main/hbtlib.c)| Prints a string character by character.|
+|[cd_b](https://github.com/devephy/simple_shell/blob/main/builtins.c) | Changes the current working directory to the parameter passed to the command cd. |
+|[env_b](https://github.com/devephy/simple_shell/blob/main/builtins.c) | Prints all environmental variables available in the current shell.
+|[check_built_ins](https://github.com/devephy/simple_shell/blob/main/builtins.c) | Checks if a command exitst as a builtin funcition and then it returns a pointer to the right function.|
